@@ -1,2 +1,2 @@
 #!/bin/bash
-ansible-playbook -vvv -K -i hosts playbook.yml
+ASK_SUDO_PASS=False ansible-playbook -vvv -K -i hosts playbook.yml
