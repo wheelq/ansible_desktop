@@ -1,3 +1,0 @@
----
-- name: install xfce
-  apt: pkg=xubuntu-desktop state=installed
